@@ -6,7 +6,8 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.contactlist.ui.contact.add.AddContactViewModel" />
+            type="com.example.contactlist.ui.contact.base.BaseContactViewModel" />
+
 
     </data>
 

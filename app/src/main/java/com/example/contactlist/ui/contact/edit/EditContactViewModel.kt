@@ -19,7 +19,7 @@ class EditContactViewModel(private val repository: ContactRepository): BaseConta
         }
     }
 
-    fun update(id: Int, contact: Contact) {
+    fun update(id: Int) {
         if(name.value.isNullOrEmpty() || phone.value.isNullOrEmpty()) {
             //
             viewModelScope.launch {
